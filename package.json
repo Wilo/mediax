@@ -1,5 +1,15 @@
 {
-  "repository": {},
+  "name": "mediax",
+  "version": "1.0.0",
+  "description": "This project is my phoenix experiment",
+  "author": "William Méndez <wmendezc19[at]gmail[dot]com",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/Wilo/mediax"
+  },
+  "bugs": {
+      "url": "https://github.com/Wilo/mediax/issues"
+  },
   "license": "MIT",
   "scripts": {
     "start": "webpack --watch-stdin --progress --colors"
