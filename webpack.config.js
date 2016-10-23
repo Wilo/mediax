@@ -3,7 +3,7 @@ module.exports = {
    output : {
      path : "./priv/static/js",
      filename: "app.js"
-   }
+   },
 
    module: {
      loaders: [{
@@ -11,9 +11,8 @@ module.exports = {
         exclude: /node_modules/,
         loader: "babel",
         query: {
-           presets: {"es2015"]
+           presets: ["es2015"]
         }
      }]
    }
-
 }
